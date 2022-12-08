@@ -91,9 +91,14 @@ input{
 				background: none ;
 				font-size : 18px;
 				font-family: "Kushan Script", cursive;
-				font-weight : bold ;
 				border : 1px solid black ;
 				border-radius: 5px ;
+}
+input:hover{
+				border : 2px solid #f17897;
+				background: #191970;
+				color: #f17897;
+				font-weight : 800;
 }
 .image{
 				width: 100%;
