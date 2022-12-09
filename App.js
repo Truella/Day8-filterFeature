@@ -66,3 +66,14 @@ buttons.forEach(function (button) {
 				})
 				//eventlistener
 })
+/// filter feature
+const searchFilter = document.getElementById("searchFilter");
+searchFilter.addEventListener("input", function () {
+				for(var i = 0; i < figureArray.length; i++){
+								if(figureArray[i].innerText.toUpperCase().includes(searchFilter.value.toUpperCase())) {
+												figureArray[i].classList.remove("is-hidden")
+								}else {
+												figureArray[i].classList.add("is-hidden")
+								}
+				}
+})

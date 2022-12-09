@@ -115,3 +115,20 @@ figcaption p{
 				font-weight : bold;
 				font-size : 25px ;
 }
+.is-hidden{
+				display : none;
+}
+#searchFilter{
+					margin-left: 0; 
+}
+#searchFilter:hover{
+				outline : none;
+			
+}
+label{
+				border : 2px solid #f17897;
+			  background: #191970;
+			  padding: 8px;
+			  color: #fff;
+			  border-radius: 5px ;
+}
